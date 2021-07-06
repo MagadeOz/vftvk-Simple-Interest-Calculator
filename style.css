@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  background-color: black;
+  font-family: arial;
+  color: white
+}
 
+h1 {
+  color: grey;
+  font-family: verdana
+}
 
+.maindiv {
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  /*align:center; didn't work so I changed it to margin*/
+  margin: auto;
+}
+
+#highlight {
+  background: yellow;
+}
+
+button {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 5px;
+  text-align: center;
+  padding: 5px;
+}
